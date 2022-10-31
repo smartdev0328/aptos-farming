@@ -1,0 +1,10 @@
+[package]
+name = 'farm'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+apinaddr = "0x55edccd11a5aadd2a3e8ffec50b7f4ee170e81c1c661ba4665dc8fcbd05fc779"
